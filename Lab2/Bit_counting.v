@@ -112,7 +112,7 @@ module Bit_counting(input ACLK,
 		endcase
 	end
 	
-	assign a0 = (A_reg[7] == 8'b1)? 1'b1:1'b0;
+	assign a0 = (A_reg[7] == 1'b1)? 1'b1:1'b0;
 	assign Z  = (A_reg == 8'b0)? 1'b1:1'b0;
 	
 	//Load A to A_temp
