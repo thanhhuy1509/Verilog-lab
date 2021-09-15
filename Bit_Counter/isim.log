@@ -1,0 +1,11 @@
+ISim log file
+Running: E:\Project\project1\Bit_Counter\Bit_CounterTB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view E:/Project/project1/Bit_Counter/Bit_counterTB.wcfg -wdb E:/Project/project1/Bit_Counter/Bit_CounterTB_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+Stopped at time : 3979983210 ns : File "E:/Project/project1/Bit_Counter/Bit_CounterTB.v" Line 64

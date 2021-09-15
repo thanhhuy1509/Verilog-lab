@@ -1,0 +1,28 @@
+Command line:
+   ExponentialFunction_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53293
+
+Mon Jun 21 08:16:13 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5154.13 Meg
+
+ Total Signals          : 24
+ Total Nets             : 30
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 35
+ Total Scalar Nets and Variables : 141
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 4682.27 Meg
+
+Mon Jun 21 08:21:34 2021
+

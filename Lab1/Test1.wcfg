@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Training_Program/Lab/Lab1/ExponentialFunction_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ExponentialFunction_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/ExponentialFunction_tb/uut/ACLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/ARESETN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ARESETN</obj_property>
+      <obj_property name="ObjectShortName">ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/X" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">X[1:0]</obj_property>
+      <obj_property name="ObjectShortName">X[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[1:0]</obj_property>
+      <obj_property name="ObjectShortName">A[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/P_temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P_temp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">P_temp[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/P1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">P1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/P_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">P_reg[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/P" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P[3:0]</obj_property>
+      <obj_property name="ObjectShortName">P[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/done_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done_reg</obj_property>
+      <obj_property name="ObjectShortName">done_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/stop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/Z" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/selA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">selA</obj_property>
+      <obj_property name="ObjectShortName">selA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/selP" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">selP</obj_property>
+      <obj_property name="ObjectShortName">selP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ExponentialFunction_tb/uut/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

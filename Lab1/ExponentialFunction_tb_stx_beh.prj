@@ -1,0 +1,3 @@
+verilog isim_temp "ExponentialFuntion.v"
+verilog isim_temp "ExponentialFunction_tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

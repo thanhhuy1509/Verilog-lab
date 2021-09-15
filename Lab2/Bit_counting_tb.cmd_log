@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Training_Program/Lab/Lab2/Bit_counting_tb.xst" -ofn "D:/Training_Program/Lab/Lab2/Bit_counting_tb.syr" 
+xst -intstyle ise -ifn "D:/Training_Program/Lab/Lab2/Bit_counting_tb.xst" -ofn "D:/Training_Program/Lab/Lab2/Bit_counting_tb.syr" 

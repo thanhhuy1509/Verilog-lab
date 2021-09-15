@@ -1,0 +1,132 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: ExponentialFunction_tb.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ExponentialFunction_tb.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ExponentialFunction_tb"
+Output Format                      : NGC
+Target Device                      : xc6vlx240t-1-ff1156
+
+---- Source Options
+Top Module Name                    : ExponentialFunction_tb
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Training_Program\Lab\Lab1\ExponentialFuntion.v" into library work
+Parsing module <ExponentialFunction>.
+Analyzing Verilog file "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" into library work
+Parsing module <ExponentialFunction_tb>.
+ERROR:HDLCompiler:715 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 25: Port X is not defined
+ERROR:HDLCompiler:715 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 26: Port A is not defined
+ERROR:HDLCompiler:715 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 27: Port P is not defined
+ERROR:HDLCompiler:1660 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 53: Procedural assignment to a non-register X is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 53: Procedural assignment to a non-register X is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 54: Procedural assignment to a non-register A is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 54: Procedural assignment to a non-register A is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 56: Procedural assignment to a non-register X is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 56: Procedural assignment to a non-register X is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 57: Procedural assignment to a non-register A is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 57: Procedural assignment to a non-register A is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:598 - "D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v" Line 21: Module <ExponentialFunction_tb> ignored due to previous errors.
+Verilog file D:\Training_Program\Lab\Lab1\ExponentialFunction_tb.v ignored due to errors
+--> 
+
+Total memory usage is 4466580 kilobytes
+
+Number of errors   :   12 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

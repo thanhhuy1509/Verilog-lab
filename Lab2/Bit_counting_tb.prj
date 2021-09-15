@@ -1,0 +1,2 @@
+verilog work "Bit_counting.v"
+verilog work "Bit_counting_tb.v"

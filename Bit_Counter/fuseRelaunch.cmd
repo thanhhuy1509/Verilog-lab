@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Project/project1/Bit_Counter/Bit_CounterTB_isim_beh.exe" -prj "E:/Project/project1/Bit_Counter/Bit_CounterTB_beh.prj" "work.Bit_CounterTB" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Training_Program/Lab/Lab1/ExponentialFunction_tb_isim_beh.exe" -prj "D:/Training_Program/Lab/Lab1/ExponentialFunction_tb_beh.prj" "work.ExponentialFunction_tb" "work.glbl" 

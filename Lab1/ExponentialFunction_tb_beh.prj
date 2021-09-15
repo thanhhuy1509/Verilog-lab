@@ -1,0 +1,3 @@
+verilog work "ExponentialFuntion.v"
+verilog work "ExponentialFunction_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
